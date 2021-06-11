@@ -1,0 +1,7 @@
+firefox:
+  pkg.installed:
+    {% if grains['os'] == 'Ubuntu 18.04' %}
+    - name: Firefox 89
+    {% elif grains['os'] == 'Ubuntu 16.04' %}
+    - name: Firefox 85
+    {% endif %}
