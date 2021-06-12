@@ -1,3 +1,0 @@
-1. /etc/ssmtp/ssmtp.conf
-2. /etc/rc.local
-3. /etc/crontab
