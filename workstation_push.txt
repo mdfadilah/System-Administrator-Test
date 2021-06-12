@@ -1,4 +1,0 @@
-Check if the workstation has got automatically signed by the master
-#salt-key -1 accepted
-Push sls to workstation
-#salt 'workstation' workstation.sls user \ saltenv=development
